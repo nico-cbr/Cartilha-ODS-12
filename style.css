@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+/* ! HEADER */
+header {
+  margin: 1.15rem 0 3rem 3.75rem;
+}
+
+.link-header{
+  font-weight: 600;/*negrito*/
+  font-size: 1.563rem;/*tamanho fonte*/
+  color: #989d9c;
+  cursor: pointer;
+  text-decoration: none;/*tirar a linha de baixo*/
+  margin-right: 1.438rem;/*espaçamento externo a direita */
+}
+
+.button-header {
+  background-color: #5e2e26;
+  border-radius: 1.281rem;
+  width: 10.125rem;
+  height: 2.563rem;
+  border: none;/*tirando a borda do botão*/
+  font-size: 1.563rem;
+  color: #ffffff;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.button-header:hover{
+  background-color: #9e6a61;
+}
+
+.banner {
+  width: 100%;
+  height: 25rem;
+/*adiciona uma imagem interna ou externa*/
+  background-image: url(./assets/ODS12-header.png);
+  background-size: cover;/*deixa a imagem preencher todo o     container sem cortá-la*/
+  margin-bottom: 3.75rem;
+}
+
+/* ! FIM HEADER
+! COMEÇO MAIN CONTENT */
+
+.content{
+  margin-left: 5.375rem;
+}
+
+h1{
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+
+p{
+  font-size: 1.525rem;
+}
+
+/* CONTENT 1 */
+.content-1{
+  display: flex;
+  height: 70vh;
+  margin-bottom: 3.125rem;
+}
+.conteudo{
+  margin: 1.875rem;
+}
+
+.content-1 p{
+  font-weight: 400;
+  line-height: 1.813rem;
+  width: 32.188rem;
+  margin-top: 2rem;
+}
+
+.consumo1{
+  height: 22.5rem;
+}
+
+/* fim */
+
+/* CONTENT 2 */
+
+#Fazendo{
+  display: flex;
+  margin-bottom: 5.25rem;
+  font-size: 4.475rem;
+  justify-content: center;
+}
+
+.content-2{
+  height: 70vh;
+  margin-bottom: 3.125rem;
+}
+
+.content-2 p{
+  font-weight: 400;
+  line-height: 1.813rem;
+  margin: 2rem 2rem 0 0;
+}
+
+/* CONTENT 3 */
+
+.content-3{
+  display: flex;
+  height: 70vh;
+  margin-bottom: 3.125rem;
+  align-items: center;
+}
+
+.conteudo2{
+  margin: 1.875rem;
+}
+
+.content-3 p{
+  font-weight: 400;
+  line-height: 1.813rem;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.pgrs{
+  height: 22.5rem;
+}
+
+/* ! FIM MAIN
+! FOOTER */
+
+.rodape{
+  background-color: black;
+  text-align: center;
+  height: 8.125rem;/*altura*/
+  margin-top: 1.375rem;/*espaçamento externo superior*/
+  display: flex;/*utilizando flex  para poder alinhar os elementos*/
+  flex-direction: column;/*colocando os elementos  em coluna*/
+  align-items: center;/*alinhando os elementos  no centro verticalmente*/
+  justify-content: center;/*alinhando os elementos   no centro horizontalmente*/
+  padding: 4.75rem 0;
+}
+
+.rodape-imagem {
+  height: 5.625rem;
+  padding: 0.75rem 0 ;/*superior e inferior direita e esquerda*/
+}
+
+.footer-texto {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: "IBM Plex Mono", sans-serif;
+}
