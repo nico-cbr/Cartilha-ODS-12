@@ -34,8 +34,17 @@ body{
   margin-right: 1.438rem;/*espaçamento externo a direita */
 }
 
+.linkbtn{
+  font-weight: 500;/*negrito*/
+  font-size: 1.563rem;/*tamanho fonte*/
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;/*tirar a linha de baixo*/
+}
+
 .button-header {
-  background-color: #5e2e26;
+  background-color: #fff;
+  box-shadow: 0.225rem 0.225rem 0.625rem #000;
   border-radius: 1.281rem;
   width: 10.125rem;
   height: 2.563rem;
@@ -47,7 +56,7 @@ body{
 }
 
 .button-header:hover{
-  background-color: #9e6a61;
+  box-shadow: 0.425rem 0.425rem 0.225rem #000;
 }
 
 .banner {
@@ -135,12 +144,13 @@ p{
 .content-3 p{
   font-weight: 400;
   line-height: 1.813rem;
-  width: 90%;
+  width: 80%;
   margin-top: 2rem;
 }
 
 .pgrs{
   height: 22.5rem;
+  margin-right: 5.625rem;
 }
 
 /* CONTENT 4 */
