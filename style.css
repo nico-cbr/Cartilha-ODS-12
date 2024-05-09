@@ -44,19 +44,19 @@ body{
 
 .button-header {
   background-color: #fff;
-  box-shadow: 0.225rem 0.225rem 0.625rem #000;
+  box-shadow: 3.5px 3.5px 10px #000;
   border-radius: 1.281rem;
-  width: 10.125rem;
-  height: 2.563rem;
+  width: 162px;
+  height: 40px;
   border: none;/*tirando a borda do botão*/
-  font-size: 1.563rem;
+  font-size: 25px;
   color: #ffffff;
   cursor: pointer;
   transition: .5s;
 }
 
 .button-header:hover{
-  box-shadow: 0.425rem 0.425rem 0.225rem #000;
+  box-shadow: 7px 7px 3.5px #000;
 }
 
 .banner {
@@ -72,64 +72,59 @@ body{
 ! COMEÇO MAIN CONTENT */
 
 .content{
-  margin-left: 5.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 85px; */
+  padding: 100px;
+  width: 100%;
 }
 
 h1{
-  font-size: 3.125rem;
+  font-size: 50px;
   font-weight: 700;
 }
 
 p{
-  font-size: 1.525rem;
+  font-size: 25px;
 }
 
 /* CONTENT 1 */
 .content-1{
   display: flex;
   height: 50vh;
-  margin-bottom: 3.125rem;
-  margin-top: 5.125rem;
+  margin-bottom: 50px;
+  margin-top: 80px;
 }
 .conteudo{
-  margin: 1.875rem;
+  margin: 0 45px;
 }
 
 .content-1 p{
   font-weight: 400;
-  line-height: 1.813rem;
-  width: 32.188rem;
-  margin-top: 2rem;
+  line-height: 29px;
+  width: 500px;
+  margin-top: 32px;
+  text-align: center;
 }
 
 .consumo1{
-  height: 22.5rem;
+  height: 400px;
 }
 
 /* fim */
 
 /* CONTENT 2 */
 
-/* #Fazendo{
-  display: flex;
-  margin-bottom: 5.25rem;
-  font-size: 4.475rem;
-  justify-content: center;
-}
-
-.content-2{
-  height: 70vh;
-  margin-bottom: 3.125rem;
-}
-
 .conteudo2{
-  margin: 1.875rem;
+  margin: 30px;
 }
 
-.content-2 p{
+/* .content-2 p{
   font-weight: 400;
-  line-height: 1.813rem;
-  margin: 2rem 2rem 0 0;
+  line-height: 29px;
+  margin: 16px 16px 0 0;
 } */
 
 /* CONTENT 3 */
@@ -137,33 +132,31 @@ p{
 .content-3{
   display: flex;
   height: 60vh;
-  margin-bottom: 3.125rem;
+  margin: 50px 0;
   align-items: center;
 }
 
 .content-3 p{
   font-weight: 400;
-  line-height: 1.813rem;
+  line-height: 29px;
   width: 80%;
-  margin-top: 2rem;
+  margin-top: 32px;
 }
 
 .pgrs{
-  height: 22.5rem;
-  margin-right: 5.625rem;
+  height: 350px;
+  margin-right: 100px;
 }
 
 /* CONTENT 4 */
 .content-4{
-  display: flex;
-  margin-bottom: 3.125rem;
-  align-items: center;
+  margin-bottom: 50px;
 }
 
 .content-4 p{
   font-weight: 400;
-  line-height: 1.813rem;
-  width: 90%;
+  line-height: 29px;
+  width: 70%;
 }
 /* fim content 4 */
 
@@ -174,8 +167,8 @@ p{
   display: flex;/*serve para colocar os elemento lado a lado 
   mas nesse momento utilizado para alinhar o itens com justify-content*/
   justify-content: center;/*alinhar os elementos ao centro*/
-  margin: 6.25rem 0;
-  margin-left: 3.625rem;
+  margin: 100px 0;
+  margin-left: 58px;
 }
 
 .video {
@@ -183,7 +176,7 @@ p{
   display: flex;/*colocando os elementos lado a lado*/
   align-items: center;/*ajusta verticalmente*/
   justify-content: space-between;/*espaçamento entre os elementos*/
-  filter: drop-shadow(0.625rem 0.625rem 0.625rem #000 );
+  filter: drop-shadow(10xp 10px 10px #000 );
 }
 
 
@@ -210,22 +203,22 @@ p{
 .rodape{
   background-color: black;
   text-align: center;
-  height: 8.125rem;/*altura*/
-  margin-top: 6.375rem;/* espaçamento externo superior */
+  height: 130px;/*altura*/
+  margin-top: 108px;/* espaçamento externo superior */
   display: flex;/*utilizando flex  para poder alinhar os elementos*/
   flex-direction: column;/*colocando os elementos  em coluna*/
   align-items: center;/*alinhando os elementos  no centro verticalmente*/
   justify-content: center;/*alinhando os elementos   no centro horizontalmente*/
-  padding: 4.75rem 0;
+  padding: 75px 0;
 }
 
 .rodape-imagem {
-  height: 5.625rem;
-  padding: 0.75rem 0 ;/*superior e inferior direita e esquerda*/
+  height: 90px;
+  padding: 12px 0 ;/*superior e inferior direita e esquerda*/
 }
 
 .footer-texto {
   color: #ffffff;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-family: "IBM Plex Mono", sans-serif;
 }
