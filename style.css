@@ -142,14 +142,51 @@ p{
   height: 22.5rem;
 }
 
-/* ! FIM MAIN
+/* VIDEO */
+
+#trailer-container{
+  width: 100%;/*Largura*/
+  display: flex;/*serve para colocar os elemento lado a lado 
+  mas nesse momento utilizado para alinhar o itens com justify-content*/
+  justify-content: center;/*alinhar os elementos ao centro*/
+  margin: 6.25rem 0;
+  margin-left: 3.625rem;
+}
+
+.video {
+  width: 90%;/*deixando o nosso container com total de 60%*/
+  display: flex;/*colocando os elementos lado a lado*/
+  align-items: center;/*ajusta verticalmente*/
+  justify-content: space-between;/*espaçamento entre os elementos*/
+  filter: drop-shadow(0.625rem 0.625rem 0.625rem #000 );
+}
+
+
+#sinopse {
+  width: 50%;
+  display: flex;/*nesse caso estamos utilizando para adicionar o
+   flex-direction*/
+  flex-direction: column; /*colocando os elementos em coluna um 
+  embaixo do outro*/
+  justify-content: space-between;/*espaçamento entre os elementos*/
+  margin-left: 30px;/*colocando um espaçamento  da esquerda*/
+}
+
+.description {
+  font-size: 18px;/*tamanho font (texto)*/
+  width: 70%;/*largura*/
+}
+
+
+
+/* ! FIM MAIN FIM VIDEO
 ! FOOTER */
 
 .rodape{
   background-color: black;
   text-align: center;
   height: 8.125rem;/*altura*/
-  margin-top: 1.375rem;/*espaçamento externo superior*/
+  /* margin-top: 1.375rem;espaçamento externo superior */
   display: flex;/*utilizando flex  para poder alinhar os elementos*/
   flex-direction: column;/*colocando os elementos  em coluna*/
   align-items: center;/*alinhando os elementos  no centro verticalmente*/
