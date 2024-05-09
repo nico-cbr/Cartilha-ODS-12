@@ -14,7 +14,7 @@ body{
 
 /* ! HEADER */
 .nav-bar{
-  padding: 1.15rem 0 3rem 1.75rem;
+  padding: 18px 0 48px 28px;
   background: linear-gradient(#fff 5%, #BF8B2D );
   display: flex;
   align-items: center;
@@ -22,21 +22,21 @@ body{
 }
 
 .logo{
-  height: 2.813rem;
+  height: 45px;
 }
 
 .link-header{
   font-weight: 600;/*negrito*/
-  font-size: 1.563rem;/*tamanho fonte*/
+  font-size:25px;/*tamanho fonte*/
   color: #989d9c;
   cursor: pointer;
   text-decoration: none;/*tirar a linha de baixo*/
-  margin-right: 1.438rem;/*espaçamento externo a direita */
+  margin-right: 23px;/*espaçamento externo a direita */
 }
 
 .linkbtn{
   font-weight: 500;/*negrito*/
-  font-size: 1.563rem;/*tamanho fonte*/
+  font-size: 25px;/*tamanho fonte*/
   color: #000;
   cursor: pointer;
   text-decoration: none;/*tirar a linha de baixo*/
