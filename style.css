@@ -80,6 +80,7 @@ p{
   display: flex;
   height: 50vh;
   margin-bottom: 3.125rem;
+  margin-top: 5.125rem;
 }
 .conteudo{
   margin: 1.875rem;
@@ -142,6 +143,20 @@ p{
   height: 22.5rem;
 }
 
+/* CONTENT 4 */
+.content-4{
+  display: flex;
+  margin-bottom: 3.125rem;
+  align-items: center;
+}
+
+.content-4 p{
+  font-weight: 400;
+  line-height: 1.813rem;
+  width: 90%;
+}
+/* fim content 4 */
+
 /* VIDEO */
 
 #trailer-container{
@@ -186,7 +201,7 @@ p{
   background-color: black;
   text-align: center;
   height: 8.125rem;/*altura*/
-  /* margin-top: 1.375rem;espaçamento externo superior */
+  margin-top: 6.375rem;/* espaçamento externo superior */
   display: flex;/*utilizando flex  para poder alinhar os elementos*/
   flex-direction: column;/*colocando os elementos  em coluna*/
   align-items: center;/*alinhando os elementos  no centro verticalmente*/
