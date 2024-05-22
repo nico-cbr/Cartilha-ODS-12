@@ -72,13 +72,10 @@ body{
 ! COMEÇO MAIN CONTENT */
 
 .content{
-  display: flex;
+  display: flex;  
+  width: 60%;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* margin-left: 85px; */
-  padding: 100px;
-  width: 100%;
+  margin: 0 auto;
 }
 
 h1{
@@ -98,7 +95,7 @@ p{
   margin-top: 80px;
 }
 .conteudo{
-  margin: 0 45px;
+  margin-left: 25px;
 }
 
 .content-1 p{
@@ -110,30 +107,16 @@ p{
 }
 
 .consumo1{
-  height: 400px;
+  height: 390px;
 }
-
-/* fim */
-
-/* CONTENT 2 */
-
-.conteudo2{
-  margin: 30px;
-}
-
-/* .content-2 p{
-  font-weight: 400;
-  line-height: 29px;
-  margin: 16px 16px 0 0;
-} */
 
 /* CONTENT 3 */
 
 .content-3{
   display: flex;
+  align-items: center;
   height: 60vh;
   margin: 50px 0;
-  align-items: center;
 }
 
 .content-3 p{
@@ -156,7 +139,7 @@ p{
 .content-4 p{
   font-weight: 400;
   line-height: 29px;
-  width: 70%;
+  width: 100%;
 }
 /* fim content 4 */
 
