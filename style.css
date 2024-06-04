@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #fff   #a2a2a2;
 }
 
 body{
@@ -61,7 +63,7 @@ body{
 
 .banner {
   width: 100%;
-  height: 400px;
+  height: 65vh;
 /*adiciona uma imagem interna ou externa*/
   background-image: url(./assets/ODS12-header.png);
   background-size: cover;/*deixa a imagem preencher todo o     container sem cortá-la*/
@@ -146,16 +148,14 @@ p{
 /* VIDEO */
 
 #trailer-container{
-  width: 100%;/*Largura*/
-  display: flex;/*serve para colocar os elemento lado a lado 
-  mas nesse momento utilizado para alinhar o itens com justify-content*/
-  justify-content: center;/*alinhar os elementos ao centro*/
-  margin: 100px 0;
-  margin-left: 58px;
+  display: flex;  
+  width: 70%;
+  flex-direction: column;
+  margin: auto;
 }
 
 .video {
-  width: 90%;/*deixando o nosso container com total de 60%*/
+  width: 100%;/*deixando o nosso container com total de 60%*/
   display: flex;/*colocando os elementos lado a lado*/
   align-items: center;/*ajusta verticalmente*/
   justify-content: space-between;/*espaçamento entre os elementos*/
@@ -163,19 +163,19 @@ p{
 }
 
 
-#sinopse {
+/* #sinopse {
   width: 50%;
   display: flex;/*nesse caso estamos utilizando para adicionar o
    flex-direction*/
-  flex-direction: column; /*colocando os elementos em coluna um 
+  /* flex-direction: column;colocando os elementos em coluna um 
   embaixo do outro*/
-  justify-content: space-between;/*espaçamento entre os elementos*/
-  margin-left: 30px;/*colocando um espaçamento  da esquerda*/
-}
+  /* justify-content: space-between;espaçamento entre os elementos
+} */ 
 
 .description {
-  font-size: 18px;/*tamanho font (texto)*/
-  width: 70%;/*largura*/
+  font-size: 22px;/*tamanho font (texto)*/
+  width: 50%;/*largura*/
+  margin-left: 30px;
 }
 
 
@@ -184,7 +184,7 @@ p{
 ! FOOTER */
 
 .rodape{
-  background-color: black;
+  background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(162,162,162,1) 49.9%, rgba(162,162,162,1) 50.1%, rgba(27,27,27,1) 100%);
   text-align: center;
   height: 130px;/*altura*/
   margin-top: 108px;/* espaçamento externo superior */
@@ -201,7 +201,7 @@ p{
 }
 
 .footer-texto {
-  color: #ffffff;
+  color: #000;
   font-size: 14px;
   font-family: "IBM Plex Mono", sans-serif;
 }
