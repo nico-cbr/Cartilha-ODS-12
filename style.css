@@ -29,11 +29,18 @@ body{
 
 .link-header{
   font-weight: 600;/*negrito*/
-  font-size:25px;/*tamanho fonte*/
-  color: #989d9c;
+  color: #868a89;/*#868a89 antigo*/
   cursor: pointer;
   text-decoration: none;/*tirar a linha de baixo*/
   margin-right: 23px;/*espaçamento externo a direita */
+  font-size: 30px;/*tamanho fonte*/
+  letter-spacing: 1.5px;
+}
+
+.link-header:hover{
+  color: #fff;
+  -webkit-text-stroke: 0.8px black;
+  transform: scale(1.25);
 }
 
 .linkbtn{
@@ -130,7 +137,6 @@ p{
 
 .pgrs{
   height: 350px;
-  margin-right: 100px;
 }
 
 /* CONTENT 4 */
@@ -184,7 +190,7 @@ p{
 ! FOOTER */
 
 .rodape{
-  background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(162,162,162,1) 49.9%, rgba(162,162,162,1) 50.1%, rgba(27,27,27,1) 100%);
+  background: linear-gradient(90deg, rgba(27,27,27,1) 0%, rgba(162,162,162,1) 50%, rgba(162,162,162,1) 50%, rgba(27,27,27,1) 100%);
   text-align: center;
   height: 130px;/*altura*/
   margin-top: 108px;/* espaçamento externo superior */
