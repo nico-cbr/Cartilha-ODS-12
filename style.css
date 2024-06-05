@@ -39,7 +39,7 @@ body{
 }
 
 .link-header:hover{
-  color: #868a89;
+  color: #000;
   /* -webkit-text-stroke: 0.8px black; */
   transform: scale(1.3);
 }
